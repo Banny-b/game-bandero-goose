@@ -27,6 +27,9 @@ player = player_imgs[0]
 player_rect = player.get_rect()
 player_speed = 10
 
+pygame.mixer.music.load('zvuk-gusya.wav')
+pygame.mixer.music.play(-1)
+
 enemy = pygame.image.load('enemy.png').convert_alpha()
 enemy_rect = enemy.get_rect()
 enemy_speed = 5
